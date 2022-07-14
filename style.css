@@ -43,6 +43,7 @@ a {
     font-weight: 150;
     color: #FFFDFE;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 hr {
