@@ -528,6 +528,10 @@ nav .icon-burger .line {
         font-size: 120px;
     }
 
+    #ach {
+        font-size: 100px;
+    }
+
     h2 {
         font-size: 50px;
     }
@@ -573,6 +577,10 @@ nav .icon-burger .line {
 @media screen and (max-width: 750px) {
     h1 {
         font-size: 100px;
+    }
+
+    #ach {
+        font-size: 70px;
     }
 
     h2 {
@@ -623,7 +631,7 @@ nav .icon-burger .line {
     }
 
     #ach {
-        font-size: 65px;
+        font-size: 55px;
     }
 
     h2 {
