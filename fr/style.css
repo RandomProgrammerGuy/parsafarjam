@@ -13,6 +13,8 @@ body {
     display: block;
     margin: 0%;
     background-color: #282529;
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -618,6 +620,10 @@ nav .icon-burger .line {
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 90px;
+    }
+
+    #ach {
+        font-size: 65px;
     }
 
     h2 {
