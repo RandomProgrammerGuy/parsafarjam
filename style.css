@@ -91,7 +91,7 @@ br {
 /*Half Screen 1 Attributes*/
 @media screen and (max-width: 1000px) {
     h1 {
-        font-size: 70px;
+        font-size: 65px;
         text-align: center;
     }
 
@@ -114,7 +114,7 @@ br {
 /*Half Screen 2 Attributes*/
 @media screen and (max-width: 900px) {
     h1 {
-        font-size: 60px;
+        font-size: 55px;
         text-align: left;
     }
 
@@ -137,7 +137,7 @@ br {
 /*Half Screen 3 Attributes*/
 @media screen and (max-width: 750px) {
     h1 {
-        font-size: 55px;
+        font-size: 45px;
         text-align: left;
     }
 
@@ -160,7 +160,7 @@ br {
 /*Mobile Attributes*/
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 45px;
+        font-size: 35px;
         text-align: left;
     }
 
