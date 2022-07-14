@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Never Gonna Give You Up... Never Gonna Let You Down... Never Gonna Run Around and Desert You... -->
+<!-- Oui, tu t'es fait rickroller par un Page Inspect... Je parie que tu ne t'attendais pas à ça... -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Parsa Farjam, Programmer, Developer, Graphic Designer, Classical Music, Pianist, Classical Composer, Composer, Classical Pianist, Contact Parsa Farjam, Parsa Farjam Contact">
+    <meta name="description" content="A Python and Web developer, Photographer, Graphic Designer, Classical Composer and Pianist.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Parsa Farjam - Contacter</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-toggle">
+        <a class="logo-link" href="accueil.html"><div class="logo">Parsa <strong> Farjam</strong></div></a>
+        <ul class="links">
+            <li><a href="./accueil.html">Page D'Acceuil</a></li>
+            <li><a href="./accomplissements.html">Accomplissements</a></li>
+            <li><a href="./contacter.html" style="font-weight: 750; color: #FFFFEE;">Contacter</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <main>
+        <section class="page-section contact" id="section-contact">
+            <h2 class="section-title">Contacter</h2>
+            <form action="https://formsubmit.co/7f45279a278989d86b53aecaa7917cad" method="POST">
+                <label for="name">Votre Nom (Nécessaire)</label>
+                <br />
+                <input type="text" name="name" id="name-field" placeholder="Saisissez Votre Nom" required>
+                <br />
+                <br />
+
+                <label for="email">Votre Address Email (Nécessaire)</label>
+                <br />
+                <input type="email" name="email" id="email-field" placeholder="Saisissez votre address email" required>
+                <br />
+                <br />
+
+                <label for="message">Votre Message</label>
+                <br />
+                <input type="text" id="message" name="message" placeholder="Dites-Moi Ce Que Vous Voulez.">
+                <br />
+
+                <br />
+                <button type="submit" id="submit">Submit</button>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/fr/email-merci.html">
+            </form>
+        </section>
+        <ul class="icon-ul ul-contactpage">
+            <li class="contact-icon">
+              <a href="https://www.instagram.com/parsa.farjam.music/">
+                <i class="fab fa-instagram icon"></i></a>
+            </li>
+            <li class="contact-icon">
+               <a href="https://www.youtube.com/channel/UCpyFSdg1ITC10L54Alhmd0Q"><i class="fab fa-youtube icon"></i></a>
+            </li>
+            <li class="contact-icon">
+               <a href="https://open.spotify.com/artist/50alZFtAXsqmIpy9nGCm6H"><i class="fab fa-spotify icon"></i></a></li>
+            <li class="contact-icon">
+               <a href="https://www.behance.net/parsa-farjam"><i class="fab fa-behance icon"></i></a></li>
+        </ul>
+    </main>
+</body>
+</html>

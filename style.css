@@ -1,0 +1,180 @@
+/*Google Font Imnport*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-6,150;0,150;0,450;0,750&display=swap');
+
+
+/*Set Body Attributes*/
+body {
+    background-color: #282529;
+    display: block;
+}
+
+
+/*Set Text Attributes*/
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 750;
+    color: #FFA080;
+    transition: 0.5s;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    color: #FFA080;
+    transition: 0.5s;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    color: #FFFDFE;
+    transition: 0.5s;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    color: #FFFDFE;
+    transition: 0.5s;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    color: #FFFDFE;
+    transition: 0.5s;
+}
+
+hr {
+    background-color: #FF624F;
+}
+
+
+/*Button Color Transition*/
+a:hover {
+    color: #FF624F;
+}
+
+
+/*Define <br /> height*/
+br {
+    display: block;
+    content: " ";
+    margin-top: 50px;
+    line-height: 22px;
+}
+
+
+/*Fullscreen Attributes*/
+@media screen and (min-width: 1001px) {
+    h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 50px;
+    }
+
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 50px;
+    }
+
+    #buttons {
+        margin-top: 200px;
+    }
+}
+
+
+/*Half Screen 1 Attributes*/
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 45px;
+    }
+
+    body {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 50px;
+    }
+
+    #buttons {
+        margin-top: 180px;
+    }
+}
+
+
+/*Half Screen 2 Attributes*/
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    a {
+        font-size: 40px;
+    }
+
+    body {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 60px;
+    }
+
+    #buttons {
+        margin-top: 160px;
+    }
+}
+
+
+/*Half Screen 3 Attributes*/
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 55px;
+        text-align: left;
+    }
+
+    a {
+        font-size: 37.5px;
+    }
+
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+
+    #buttons {
+        margin-top: 140px;
+    }
+}
+
+
+/*Mobile Attributes*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 45px;
+        text-align: left;
+    }
+
+    a {
+        font-size: 32.5px;
+    }
+
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+
+    #buttons {
+        margin-top: 140px;
+    }
+}
